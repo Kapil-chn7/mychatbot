@@ -6,7 +6,7 @@ router.get("/query", (req, res) => {
   if (!req.query) {
     res.send(400);
   } else {
-    console.log("this is the request data ", req.query.query);
+    console.log("this is the request dataaaaaaaa ", req.query.query);
   }
 });
 export default router;
